@@ -1,8 +1,8 @@
 {
-  "name": "local-t2-device-redux",
-  "version": "0.0.1",
-  "description": "Manages screen size info for responsive web design",
-  "main": "index.js",
+  "name": "local-t2-navigation-redux",
+  "version": "0.0.3",
+  "description": "Manages navigation logic - More to come",
+  "main": "./lib/",
   "scripts": {
     "test": "mocha --compilers js:babel-register --recursive",
     "test:watch": "npm test -- --watch",
