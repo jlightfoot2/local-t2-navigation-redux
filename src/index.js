@@ -1,5 +1,6 @@
 import navigationReducer, {navigationTree} from './reducers';
 import {init} from './actions';
+import navigationActions from './actions'
 
 var navigationIds = [];
 function addParentProperty (navTree) {
@@ -28,5 +29,6 @@ const navigationCreateMiddleware = treeRaw => {
 export {
   navigationReducer,
   navigationTree,
-  navigationCreateMiddleware
+  navigationCreateMiddleware,
+  navigationActions
 };

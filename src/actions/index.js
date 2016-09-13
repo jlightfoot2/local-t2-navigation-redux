@@ -6,3 +6,8 @@ export const init = (config) => {
     config
   };
 };
+
+export default {
+  CONFIG_T2_NAVIGATION,
+  init
+};
